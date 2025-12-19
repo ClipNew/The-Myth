@@ -190,8 +190,8 @@ const Home = () => {
             
             <div className="mb-10 w-full pr-4">
               <h2 className="font-cinzel font-black uppercase tracking-tighter leading-[0.85] text-white">
-                <span className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl block">PUREGOLD</span>
-                <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-indigo-500 block mt-2">CLASH</span>
+                <span className="text-[10vw] sm:text-[8vw] md:text-5xl lg:text-6xl block">PUREGOLD</span>
+                <span className="text-[8vw] sm:text-[6vw] md:text-4xl lg:text-5xl text-indigo-500 block mt-2">CLASH</span>
               </h2>
             </div>
 

@@ -214,6 +214,10 @@ const Footer = () => (
 export default function App() {
   useRevealOnScroll();
 
+  useEffect(() => {
+    console.log("%cTHE MYTH %cVanguard System Initialized. Ready for Battle.", "color: #4f46e5; font-size: 20px; font-weight: bold;", "color: #888; font-size: 14px;");
+  }, []);
+
   return (
     <Router>
       <ScrollToTop />
