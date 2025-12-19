@@ -171,9 +171,15 @@ const CreatorHub = () => {
               className="group glass-card rounded-[2.5rem] overflow-hidden border border-white/5 hover:border-indigo-500/40 transition-all flex flex-col shadow-2xl text-left bg-[#0c0c12] relative"
             >
               <div className="aspect-video relative overflow-hidden bg-[#1a1a24]">
-                <img src={`https://img.youtube.com/vi/${item.id}/maxresdefault.jpg`} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-60 group-hover:opacity-80" alt={item.title} />
+                <img 
+                  src={`https://img.youtube.com/vi/${item.id}/hqdefault.jpg`} 
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-60 group-hover:opacity-100" 
+                  alt={item.title} 
+                />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <Play className="w-16 h-16 text-white fill-white opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all" />
+                  <div className="w-16 h-16 bg-white/10 backdrop-blur-md rounded-full flex items-center justify-center border border-white/20 group-hover:scale-110 group-hover:bg-indigo-600/50 transition-all">
+                    <Play className="w-8 h-8 text-white fill-white ml-1" />
+                  </div>
                 </div>
                 <div className="absolute top-4 left-4">
                   <span className="px-4 py-1.5 bg-indigo-600/90 backdrop-blur-md text-[9px] font-black text-white rounded-[0.5rem] uppercase tracking-widest shadow-xl">
