@@ -118,8 +118,8 @@ const Economy = () => {
           </div>
           <div className="relative">
             <div className="aspect-video rounded-3xl overflow-hidden border border-white/10 shadow-2xl group cursor-pointer" onClick={() => setActiveVideo('5IPIJwsuIOc')}>
-              {/* Updated image asset from the Black Market Guide link */}
-              <img src="https://assets.albiononline.com/uploads/media/default/media/8939c656920958f01b7a66786c41499596887532.jpeg" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80" alt="Official Black Market Guide Image" />
+              {/* FIXED: Using direct YouTube thumbnail for 5IPIJwsuIOc to ensure visibility */}
+              <img src="https://img.youtube.com/vi/5IPIJwsuIOc/maxresdefault.jpg" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80" alt="Black Market Operations Video" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="w-20 h-20 bg-indigo-600/90 backdrop-blur-sm rounded-full flex items-center justify-center shadow-2xl border border-white/20">
                   <Play className="w-8 h-8 text-white fill-white ml-1" />
