@@ -101,7 +101,7 @@ const Recruitment = () => {
                 Our Officers will contact you via Discord shortly. Prepare for the mass.
               </p>
               <button onClick={() => setSubmitted(false)} className="text-indigo-400 font-black uppercase tracking-widest hover:text-white transition-colors flex items-center justify-center gap-2 text-xs md:text-sm">
-                Submit Another Application <ArrowRight className="w-4 h-4" />
+                New Recruitment Request <ArrowRight className="w-4 h-4" />
               </button>
             </div>
           ) : (
@@ -155,7 +155,7 @@ const Recruitment = () => {
                 {isSubmitting ? (
                   <Loader2 className="w-6 h-6 animate-spin" />
                 ) : (
-                  <>SUBMIT APPLICATION <Send className="ml-4 w-5 h-5 md:w-6 md:h-6" /></>
+                  <>JOIN THE FIGHT <Send className="ml-4 w-5 h-5 md:w-6 md:h-6" /></>
                 )}
               </button>
             </form>

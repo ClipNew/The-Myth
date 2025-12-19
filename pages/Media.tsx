@@ -63,7 +63,7 @@ const CreatorHub = () => {
     { id: 'moUY9ZkX__Y', title: 'Strategic Field Battle: Tactical Ops', creator: 'Unexpected Error', category: 'War', desc: "Tactical positioning and shotcalling in the open world." },
     { id: 'gM1qLT1rIUM', title: 'The Push: Alliance Vanguard Part 1', creator: 'DelRosario', category: 'War', desc: "First-person perspective of the Outland push." },
     { id: 'BqJJq8ycDus', title: 'The Push: Alliance Vanguard Part 2', creator: 'DelRosario', category: 'War', desc: "Conclusion of the legendary alliance battle." },
-    { id: 'UZ6rQ51mVs', title: 'Elite Group Dungeon: Ragnark POV', creator: 'Ragnark', category: 'Community', desc: "Maximizing DPS for high-tier guild raids." },
+    { id: 'w6jDxeLplnQ', title: 'Elite Group Dungeon: Ragnark POV', creator: 'Ragnark', category: 'Community', desc: "Maximizing DPS for high-tier guild raids." },
     { id: 'stP0x35j-VA', title: 'Dungeon Run: Life in the Glitch', creator: 'Unexpected Error', category: 'Community', desc: "Behind the scenes of our daily PVE operations." },
     { id: 'xVlnzVwTzZ4', title: 'Official Recruitment: Join the Error', creator: 'Unexpected Error', category: 'Community', desc: "The call to arms. See what we offer." },
     { id: '5IPIJwsuIOc', title: 'Master Crafting: Funding the War', creator: 'Unexpected Error', category: 'Economy', desc: "How we fund our max-tier regear bank." },

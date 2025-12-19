@@ -85,13 +85,13 @@ const Home = () => {
                 <span className="relative inline-flex rounded-full h-2 w-2 md:h-3 md:w-3 bg-red-500"></span>
               </span>
               <div className="flex items-center gap-3 md:gap-4 text-[8px] md:text-[10px] font-black uppercase tracking-[0.35em]">
-                <span className="text-white/50">STATUS:</span>
+                <span className="text-white/50">ALLIANCE [JOKER]</span>
                 <span className="text-white flex items-center gap-2">
-                  <MapPin className="w-3 md:w-3.5 h-3 md:h-3.5 text-red-500" /> PUREGOLD SIEGE
+                  <Globe className="w-3 md:w-3.5 h-3 md:h-3.5 text-indigo-400" /> ALBION EAST
                 </span>
                 <span className="hidden sm:inline w-1 h-1 bg-white/20 rounded-full"></span>
-                <span className="hidden sm:flex items-center gap-2 text-indigo-400">
-                  <Clock className="w-3 md:w-3.5 h-3 md:h-3.5" /> 18:00 UTC
+                <span className="hidden sm:flex items-center gap-2 text-red-500">
+                  <Flame className="w-3 md:w-3.5 h-3 md:h-3.5" /> DOMINATING CORE
                 </span>
               </div>
             </div>
@@ -103,12 +103,12 @@ const Home = () => {
             </h1>
             <div className="h-1 w-20 md:w-48 bg-gradient-to-r from-transparent via-indigo-500 to-transparent mx-auto mt-4 md:mt-6 rounded-full opacity-70"></div>
             <p className="text-[clamp(0.7rem,3vw,1.75rem)] mt-6 md:mt-8 font-cinzel font-light tracking-[0.4em] md:tracking-[0.6em] text-white/70 uppercase px-4">
-              Where Legends are Forged
+              Albion East Powerhouse
             </p>
           </div>
 
           <p className="text-sm md:text-xl text-slate-400 mb-12 md:mb-20 max-w-4xl mx-auto leading-relaxed font-light italic animate-in fade-in duration-1000 delay-500 px-6">
-            "An elite force of <span className="text-white font-bold">150+ Active Warriors</span>. Dominating the core territories with unbreakable unity and zero tax."
+            "An elite force within the <span className="text-white font-bold">Joker Alliance</span>. 30B+ Combined Fame. 0% Tax. Unbreakable Unity."
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 md:gap-8 animate-in fade-in slide-in-from-bottom-12 duration-1000 delay-700 px-6">
@@ -122,83 +122,20 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Battle Honors Section - Social Proof */}
+      {/* Battle Honors Section - Realized Data Points */}
       <section className="max-w-7xl mx-auto px-4 md:px-8 reveal">
         <div className="text-center mb-12 md:mb-16">
           <div className="inline-flex items-center gap-3 px-4 py-2 bg-indigo-600/10 rounded-full border border-indigo-500/20 mb-4">
             <Award className="w-4 h-4 text-indigo-400" />
-            <span className="text-[9px] font-black text-white uppercase tracking-[0.4em]">Guild Supremacy</span>
+            <span className="text-[9px] font-black text-white uppercase tracking-[0.4em]">Official Database Stats</span>
           </div>
           <h2 className="text-3xl md:text-6xl font-cinzel font-black text-white uppercase tracking-tighter">BATTLE <span className="text-indigo-500">HONORS</span></h2>
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
-          <StatBlock icon={TrendingUp} label="Total Kill Fame" value="8.4B+" color="bg-indigo-500" />
-          <StatBlock icon={Shield} label="Core Territories" value="12" color="bg-indigo-400" />
-          <StatBlock icon={Trophy} label="PureGold Defense" value="Undefeated" color="bg-[#fbbf24]" />
-          <StatBlock icon={Users} label="Daily Mass" value="150+" color="bg-purple-500" />
-        </div>
-      </section>
-
-      {/* PUREGOLD CASTLE SHOWCASE */}
-      <section className="max-w-7xl mx-auto px-4 md:px-8 reveal">
-        <div className="bg-[#050508] rounded-[2rem] md:rounded-[4rem] border border-indigo-500/20 overflow-hidden flex flex-col lg:flex-row items-stretch shadow-3xl min-h-[500px] lg:min-h-[700px] relative">
-          <div className="lg:w-[60%] h-[250px] md:h-[400px] lg:h-auto relative overflow-hidden group flex items-stretch cursor-pointer" onClick={() => setActiveVideo('kO0qD9Ms-6M')}>
-            <div className="w-full h-full relative overflow-hidden">
-               <img src="https://assets.albiononline.com/uploads/media/default/media/995c4292d2af208ef5201290794abb2b6596f803.jpeg" className="w-full h-full object-cover grayscale-[40%] group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-105" alt="PureGold Castle Siege" />
-               <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-transparent"></div>
-            </div>
-            <div className="absolute inset-0 flex items-center justify-center z-40">
-              <div className="w-16 h-16 md:w-32 md:h-32 lg:w-40 lg:h-40 bg-indigo-600/90 backdrop-blur-md rounded-full flex items-center justify-center shadow-2xl border border-white/20 group-hover:scale-110 transition-transform">
-                <Play className="text-white fill-white w-8 h-8 md:w-16 md:h-16 lg:w-20 lg:h-20 ml-1" />
-              </div>
-            </div>
-            <div className="absolute bottom-4 md:bottom-12 left-4 md:left-12 flex flex-col gap-2 md:gap-6">
-              <div className="flex flex-wrap items-center gap-2 md:gap-4">
-                <span className="px-3 md:px-6 py-1.5 md:py-2.5 bg-red-600 text-[7px] md:text-[10px] font-black text-white rounded-xl uppercase tracking-widest shadow-2xl flex items-center gap-1.5 md:gap-3">
-                  <Flame className="w-3 md:w-4 h-3 md:h-4 animate-pulse" /> CLASSIFIED VOD
-                </span>
-                <span className="px-3 md:px-6 py-1.5 md:py-2.5 bg-indigo-600 text-[7px] md:text-[10px] font-black text-white rounded-xl uppercase tracking-widest shadow-2xl flex items-center gap-1.5 md:gap-3">
-                  <Users className="w-3 md:w-4 h-3 md:h-4" /> 40 WARRIORS
-                </span>
-              </div>
-              <h3 className="text-white font-cinzel font-black text-xl md:text-5xl uppercase tracking-tighter italic text-glow">"THE IMPENETRABLE HOLD"</h3>
-            </div>
-          </div>
-
-          <div className="lg:w-[40%] p-6 md:p-12 lg:p-12 xl:p-14 flex flex-col justify-center relative bg-[#0a0a0f] border-l border-white/5 overflow-hidden">
-            <div className="flex items-center gap-3 md:gap-4 mb-4 md:mb-6">
-              <Crosshair className="text-indigo-400 w-4 h-4 md:w-5 md:h-5" />
-              <span className="text-[9px] md:text-[10px] font-black text-indigo-400 uppercase tracking-[0.45em]">Battle Analysis</span>
-            </div>
-            
-            <div className="mb-6 md:mb-8 w-full">
-              <h2 className="font-cinzel font-black uppercase tracking-tighter leading-[0.85] text-white">
-                <span className="text-[clamp(2.2rem,8vw,5.5rem)] lg:text-[clamp(1.8rem,4vw,3.5rem)] xl:text-5xl block whitespace-nowrap overflow-hidden">PUREGOLD</span>
-                <span className="text-[clamp(1.5rem,6vw,4.5rem)] lg:text-[clamp(1.4rem,3.5vw,3rem)] text-indigo-500 block mt-1 uppercase">CLASH</span>
-              </h2>
-            </div>
-
-            <div className="border-l-4 border-indigo-500 pl-4 md:pl-6 mb-8 md:mb-10 space-y-4 md:space-y-6">
-               <p className="text-slate-400 text-xs md:text-lg leading-relaxed font-light italic">
-                 Witness coordination at its peak. While we mass <span className="text-white font-bold">150+</span>, this hold was achieved by a lethal <span className="text-white font-bold underline decoration-indigo-500 decoration-2 underline-offset-4">40-man strike force</span>.
-               </p>
-               <div className="flex flex-col gap-2 md:gap-3">
-                  <div className="flex items-center gap-2 md:gap-3 text-[8px] md:text-[10px] font-black text-slate-500 uppercase tracking-[0.2em]">
-                    <ShieldAlert className="w-3.5 h-3.5 md:w-4 md:h-4 text-indigo-400" /> PUREGOLD CASTLE
-                  </div>
-                  <div className="flex items-center gap-2 md:gap-3 text-[8px] md:text-[10px] font-black text-slate-500 uppercase tracking-[0.2em]">
-                    <Target className="w-3.5 h-3.5 md:w-4 md:h-4 text-indigo-400" /> IMPENETRABLE
-                  </div>
-               </div>
-            </div>
-            
-            <button 
-              onClick={() => setActiveVideo('kO0qD9Ms-6M')}
-              className="w-full py-4 md:py-6 bg-indigo-600 hover:bg-white hover:text-indigo-600 text-white rounded-xl md:rounded-2xl font-black text-sm md:text-lg flex items-center justify-center transition-all shadow-xl shadow-indigo-600/30 uppercase tracking-tighter gap-2 md:gap-3 group"
-            >
-              <Youtube className="w-5 h-5 md:w-6 md:h-6 group-hover:text-indigo-600" /> ANALYZE SIEGE
-            </button>
-          </div>
+          <StatBlock icon={TrendingUp} label="Total Kill Fame" value="28.5B+" color="bg-indigo-500" />
+          <StatBlock icon={Shield} label="PvE Dominance" value="340B+" color="bg-indigo-400" />
+          <StatBlock icon={Trophy} label="Alliance Power" value="[JOKER]" color="bg-[#fbbf24]" />
+          <StatBlock icon={Users} label="Daily Vanguard" value="150+" color="bg-purple-500" />
         </div>
       </section>
 
@@ -209,11 +146,11 @@ const Home = () => {
            <div className="relative z-10">
              <h2 className="text-[clamp(2.2rem,8vw,8rem)] font-cinzel font-black text-white mb-6 md:mb-16 tracking-tighter uppercase leading-none text-glow">JOIN THE MYTH</h2>
              <p className="text-white/80 text-sm md:text-2xl mb-10 md:mb-24 max-w-5xl mx-auto font-light leading-relaxed px-4">
-               Ready to become legend? Join the 150+ strong vanguard and claim your place in the Outland core.
+               Ready to become legend on Albion East? Join the 150+ strong vanguard and claim your place in the core territories of Joker Alliance.
              </p>
              <div className="flex flex-col md:flex-row justify-center gap-4 md:gap-12">
                <a href={discordLink} target="_blank" rel="noopener noreferrer" className="btn-glint px-10 md:px-20 py-4 md:py-8 bg-indigo-600 text-white rounded-full font-black text-base md:text-2xl hover:scale-105 transition-transform shadow-2xl uppercase tracking-tighter">
-                 APPLY ON DISCORD
+                 JOIN THE FIGHT
                </a>
                <Link to="/recruitment" className="px-10 md:px-20 py-4 md:py-8 border-2 md:border-4 border-white text-white rounded-full font-black text-base md:text-2xl hover:bg-white hover:text-black transition-all shadow-2xl uppercase tracking-tighter">
                  VIEW PERKS

@@ -54,11 +54,13 @@ const StrategicTicker = () => (
       {[1,2,3,4,5].map(i => (
         <span key={i} className="text-[9px] md:text-[10px] font-black text-white uppercase tracking-[0.4em] flex items-center gap-6 md:gap-8">
           <Crown className="w-3 h-3 md:w-3.5 md:h-3.5 text-[#fbbf24] animate-pulse" /> 
+          SERVER: ALBION EAST
+          <span className="w-1 h-1 rounded-full bg-white/20"></span>
+          ALLIANCE: [JOKER] JOKER IS WILD
+          <span className="w-1 h-1 rounded-full bg-white/20"></span>
           GUILD STATUS: LEGENDARY
           <span className="w-1 h-1 rounded-full bg-white/20"></span>
           ACTIVE WARRIORS: 150+
-          <span className="w-1 h-1 rounded-full bg-white/20"></span>
-          ALLIANCE POWER: ASCENDED
         </span>
       ))}
     </div>
@@ -114,7 +116,7 @@ const Navbar = ({ isOpen, setIsOpen }: { isOpen: boolean, setIsOpen: (v: boolean
                 THE <span className="text-indigo-500">MYTH</span>
               </span>
               <span className="text-[7px] md:text-[8px] text-slate-500 font-bold tracking-[0.3em] uppercase mt-1">
-                Vanguard v1.0
+                [JOKER] Vanguard
               </span>
             </div>
           </Link>
@@ -157,7 +159,7 @@ const Navbar = ({ isOpen, setIsOpen }: { isOpen: boolean, setIsOpen: (v: boolean
               </Link>
             ))}
             <Link to="/recruitment" onClick={() => setIsOpen(false)} className="w-full text-center bg-indigo-600 py-4 rounded-xl font-black text-white text-base uppercase tracking-widest shadow-xl">
-              START APPLICATION
+              JOIN THE FIGHT
             </Link>
           </div>
         )}
@@ -180,7 +182,7 @@ const Footer = () => (
               </span>
             </div>
             <p className="text-slate-400 max-w-md leading-relaxed text-lg font-light italic border-l-4 border-indigo-500/30 pl-6">
-              "A legendary vanguard forged in the heart of the Outlands. We don't just participate in the war; we define its outcome."
+              "An elite [JOKER] Alliance vanguard forged on Albion East. We don't just participate in the war; we define its outcome."
             </p>
           </div>
           <div className="flex items-center gap-6">
@@ -209,17 +211,17 @@ const Footer = () => (
             JOIN 150+ WARRIORS. 0% TAX. ELITE REGEARS.
           </p>
           <Link to="/recruitment" className="inline-flex items-center gap-2 px-8 py-4 bg-indigo-600 hover:bg-white hover:text-indigo-600 text-white rounded-xl font-black text-xs uppercase tracking-widest transition-all shadow-lg group">
-            START APPLICATION <Send className="w-3 h-3 group-hover:rotate-12 transition-transform" />
+            JOIN THE FIGHT <Send className="w-3 h-3 group-hover:rotate-12 transition-transform" />
           </Link>
         </div>
       </div>
 
       <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-8">
         <p className="text-slate-600 text-[9px] font-black uppercase tracking-[0.6em] text-center md:text-left">
-          © {new Date().getFullYear()} THE MYTH GUILD. VANGUARD SYSTEM V1.0
+          © {new Date().getFullYear()} THE MYTH GUILD. ALBION EAST VANGUARD.
         </p>
         <div className="flex items-center gap-6">
-          <span className="text-slate-600 text-[8px] font-black uppercase tracking-[0.4em]">OUTLANDS VANGUARD</span>
+          <span className="text-slate-600 text-[8px] font-black uppercase tracking-[0.4em]">ALBION EAST [JOKER]</span>
           <span className="text-slate-600 text-[8px] font-black uppercase tracking-[0.4em]">EST. 2022</span>
         </div>
       </div>
