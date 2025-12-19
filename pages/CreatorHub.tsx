@@ -60,11 +60,11 @@ const CreatorHub = () => {
       link: 'https://www.youtube.com/@TheMyth-Regnar' 
     },
     { 
-      name: 'CodeAdam Adventure', 
-      role: 'Adventure Vlogger', 
-      desc: 'Epic journeys across the royal and outland continents. Finding the hidden gems of Albion.',
-      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200', 
-      link: 'https://www.youtube.com/@CodeAdamAdventure' 
+      name: 'The Myth Archives', 
+      role: 'Official Records', 
+      desc: 'Historical milestones of The Myth. Every major war and victory cataloged for the brotherhood.',
+      avatar: 'https://images.unsplash.com/photo-1614850523296-d8c1af93d400?auto=format&fit=crop&q=80&w=200', 
+      link: 'https://discord.gg/AaXfdzb4Xx' 
     }
   ];
 
@@ -72,8 +72,8 @@ const CreatorHub = () => {
     { id: 'kO0qD9Ms-6M', title: 'Legendary Siege: 150+ Defensive Hold', creator: 'The Myth Official', category: 'War', desc: "Our legendary stand against overwhelming odds in the core." },
     { id: 'uA-Lyj-IxZY', title: 'Outland Conquest: The 150+ Mass', creator: 'DelRosario', category: 'War', desc: "Witness the sheer scale of The Myth's daily operations." },
     { id: 'moUY9ZkX__Y', title: 'Strategic Core Battle: Tactical Ops', creator: 'The Myth Official', category: 'War', desc: "High-level shotcalling and tactical coordination." },
-    { id: 'w6jDxeLplnQ', title: 'Elite Dungeon Raid: Ragnark POV', creator: 'Ragnark', category: 'Community', desc: "Maximizing DPS for high-tier guild operations." },
-    { id: 'XG7H5-N6M4E', title: 'CodeAdam: Royal Continent Quest', creator: 'CodeAdam', category: 'Adventure', desc: "Unlocking secrets in the heart of the royal cities." },
+    { id: 'w6jDxeLplnQ', title: 'Elite ZvZ Clash: Ragnark POV', creator: 'Ragnark', category: 'War', desc: "High-octane ZvZ combat and tactical positioning in the Outland core." },
+    { id: 'wpQwGWvhvXI', title: 'JOKER Alliance: 150+ Warrior Mass', creator: 'The Myth Official', category: 'War', desc: "The power of the [JOKER] Alliance unleashed in the heart of the Outlands." },
     { id: 'gM1qLT1rIUM', title: 'The Push: Alliance Vanguard', creator: 'DelRosario', category: 'War', desc: "Cinematic push into enemy territory." },
     { id: 'stP0x35j-VA', title: 'Dungeon Run: Life in the Myth', creator: 'The Myth Official', category: 'Community', desc: "Behind the scenes of our daily guild life." },
     { id: '5IPIJwsuIOc', title: 'Black Market: High-Stakes Run', creator: 'The Myth Official', category: 'Economy', desc: "Executing a 500M+ silver transport to Caerleon." },

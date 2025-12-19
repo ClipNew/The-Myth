@@ -49,24 +49,24 @@ const CreatorHub = () => {
       link: 'https://www.youtube.com/@TheMyth-Regnar' 
     },
     { 
-      name: 'Unexpected Error Archive', 
+      name: 'The Myth Archive', 
       role: 'Official Guild Records', 
       desc: 'The source of truth for all historical guild milestones and VODs.',
       avatar: 'https://images.unsplash.com/photo-1614850523296-d8c1af93d400?auto=format&fit=crop&q=80&w=200', 
-      link: 'https://www.youtube.com/watch?v=uA-Lyj-IxZY' 
+      link: 'https://discord.gg/AaXfdzb4Xx' 
     },
   ];
 
   const showcaseItems = [
-    { id: 'kO0qD9Ms-6M', title: 'PureGold Castle Fight: Siege Defense', creator: 'Unexpected Error', category: 'War', hallOfFame: true, desc: "A legendary stand against overwhelming alliance odds." },
+    { id: 'kO0qD9Ms-6M', title: 'PureGold Castle Fight: Siege Defense', creator: 'The Myth Official', category: 'War', hallOfFame: true, desc: "A legendary stand against overwhelming alliance odds." },
     { id: 'uA-Lyj-IxZY', title: 'Alliance vs VoidBounds: Grand Mass', creator: 'DelRosario', category: 'War', desc: "Witness 120+ warriors massing for the core of the Outlands." },
-    { id: 'moUY9ZkX__Y', title: 'Strategic Field Battle: Tactical Ops', creator: 'Unexpected Error', category: 'War', desc: "Tactical positioning and shotcalling in the open world." },
+    { id: 'moUY9ZkX__Y', title: 'Strategic Field Battle: Tactical Ops', creator: 'The Myth Official', category: 'War', desc: "Tactical positioning and shotcalling in the open world." },
     { id: 'gM1qLT1rIUM', title: 'The Push: Alliance Vanguard Part 1', creator: 'DelRosario', category: 'War', desc: "First-person perspective of the Outland push." },
-    { id: 'BqJJq8ycDus', title: 'The Push: Alliance Vanguard Part 2', creator: 'DelRosario', category: 'War', desc: "Conclusion of the legendary alliance battle." },
-    { id: 'w6jDxeLplnQ', title: 'Elite Group Dungeon: Ragnark POV', creator: 'Ragnark', category: 'Community', desc: "Maximizing DPS for high-tier guild raids." },
-    { id: 'stP0x35j-VA', title: 'Dungeon Run: Life in the Glitch', creator: 'Unexpected Error', category: 'Community', desc: "Behind the scenes of our daily PVE operations." },
-    { id: 'xVlnzVwTzZ4', title: 'Official Recruitment: Join the Error', creator: 'Unexpected Error', category: 'Community', desc: "The call to arms. See what we offer." },
-    { id: '5IPIJwsuIOc', title: 'Master Crafting: Funding the War', creator: 'Unexpected Error', category: 'Economy', desc: "How we fund our max-tier regear bank." },
+    { id: 'wpQwGWvhvXI', title: 'JOKER Alliance: 150+ Warrior Mass', creator: 'The Myth Official', category: 'War', desc: "Evidence of our daily [JOKER] Alliance presence." },
+    { id: 'w6jDxeLplnQ', title: 'Elite ZvZ Clash: Ragnark POV', creator: 'Ragnark', category: 'War', desc: "High-octane ZvZ combat and tactical positioning in the Outland core." },
+    { id: 'stP0x35j-VA', title: 'Dungeon Run: Life in the Myth', creator: 'The Myth Official', category: 'Community', desc: "Behind the scenes of our daily guild life." },
+    { id: 'xVlnzVwTzZ4', title: 'Official Recruitment: Join The Myth', creator: 'The Myth Official', category: 'Community', desc: "The call to arms. See what we offer." },
+    { id: '5IPIJwsuIOc', title: 'Master Crafting: Funding the War', creator: 'The Myth Official', category: 'Economy', desc: "How we fund our max-tier regear bank." },
   ];
 
   const filters = ['All', 'War', 'Community', 'Economy'];
@@ -84,7 +84,7 @@ const CreatorHub = () => {
         </div>
         <h1 className="text-5xl md:text-8xl font-cinzel font-black text-white mb-8 tracking-tighter uppercase leading-none text-glow">BATTLE <br/><span className="text-indigo-500">ARCHIVES</span></h1>
         <p className="text-slate-400 max-w-2xl mx-auto text-xl leading-relaxed font-light">
-          Context is everything. Witness the 120+ warrior massing through the eyes of <span className="text-white font-bold">DelRosario</span> and <span className="text-white font-bold">Ragnark</span>.
+          Context is everything. Witness the 150+ warrior massing through the eyes of <span className="text-white font-bold">DelRosario</span> and <span className="text-white font-bold">Ragnark</span>.
         </p>
       </section>
 
@@ -132,7 +132,7 @@ const CreatorHub = () => {
         <div className="flex flex-col md:flex-row items-end justify-between mb-16 gap-8 px-2 border-l-4 border-indigo-500 pl-8">
            <div className="max-w-xl">
              <h2 className="text-5xl md:text-7xl font-cinzel font-black text-white uppercase tracking-tighter leading-none text-glow">BATTLEFIELD <span className="text-indigo-500">FEED</span></h2>
-             <p className="text-slate-500 mt-6 font-medium text-lg leading-relaxed italic">"Witness the 120+ warrior alliance in action. Real VODs. Real context."</p>
+             <p className="text-slate-500 mt-6 font-medium text-lg leading-relaxed italic">"Witness the 150+ warrior alliance in action. Real VODs. Real context."</p>
            </div>
            <div className="flex flex-wrap justify-center gap-3">
              {filters.map(filter => (
