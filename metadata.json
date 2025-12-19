@@ -1,0 +1,8 @@
+{
+  "name": "THE MYTH - Albion Online Guild",
+  "description": "The official home of THE MYTH. A legendary vanguard in Albion Online with 150+ active members. Dominating the Outlands with 0% tax and unbreakable brotherhood.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
